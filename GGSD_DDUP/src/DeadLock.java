@@ -1,6 +1,7 @@
 /*死锁*/
 public class DeadLock {
     public static void main(String[] args) {
+        
     Object o1 =new Object();
     Object o2 =new Object();
     Thread mythread1=new Mythread1(o1,o2);
@@ -45,6 +46,7 @@ class Mythread2 extends Thread{
             }
             synchronized (object1){
                 System.out.println(object1+"1执行了11");
+
             }
         }
     }
