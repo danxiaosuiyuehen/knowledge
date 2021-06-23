@@ -1,0 +1,1 @@
+@Qualifier：一般和@Bean一起用，用于指定注入spring容器内的对象（如mq的config配置类中，绑定队列和交换机时使用）
